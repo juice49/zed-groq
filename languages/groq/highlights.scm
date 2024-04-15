@@ -41,7 +41,7 @@
 (projection_entry
   (identifier) @property)
 
-(objectEntry
+(object_entry
   key: (_) @property
   ":" @punctuation.delimiter)
 
