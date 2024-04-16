@@ -1,3 +1,4 @@
 name = "GROQ"
 grammar = "groq"
 path_suffixes = ["groq"]
+line_comments = ["// "]
