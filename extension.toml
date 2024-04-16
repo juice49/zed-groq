@@ -8,4 +8,4 @@ repository = "https://github.com/juice49/zed-groq"
 
 [grammars.groq]
 repository = "https://github.com/juice49/tree-sitter-groq"
-commit = "8335742120b1f1d20f0b32b11702c43234bad4e9"
+commit = "181939bca2926946fbaa864221175a68c4a5ac88"
