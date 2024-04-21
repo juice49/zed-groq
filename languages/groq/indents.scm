@@ -2,3 +2,7 @@
   base: (_)?
   "{" @start
   "}" @end) @indent
+
+(object
+  "{" @start
+  "}" @end) @indent
