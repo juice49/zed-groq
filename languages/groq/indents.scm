@@ -10,3 +10,7 @@
 (array
   "[" @start
   "]" @end) @indent
+
+(func_call_expression
+  "(" @start
+  ")" @end) @indent
