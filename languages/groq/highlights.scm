@@ -1,7 +1,7 @@
 (everything_expression) @operator
 (this_expression) @operator
 (identifier) @variable
-(parameter) @variable.parameter
+(parameter) @constant
 (number) @number
 (comment) @comment
 (string) @string
@@ -30,9 +30,9 @@
   "=>" @operator)
 
 (func_call_expression
-  namespace: (_)? @module
+  namespace: (_)? @constant.builtin
   "::"? @punctuation.delimiter
-  identifier: (_) @function.builtin
+  identifier: (_) @keyword.function
   "(" @punctuation.bracket
   arg: ((_)
     "," @punctuation.delimiter)*
