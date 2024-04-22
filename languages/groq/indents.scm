@@ -6,3 +6,7 @@
 (object
   "{" @start
   "}" @end) @indent
+
+(array
+  "[" @start
+  "]" @end) @indent
